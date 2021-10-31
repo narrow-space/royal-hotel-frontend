@@ -13,7 +13,7 @@ const Services = () => {
         <div className="container" >
             
         <div className="mt-3 text-center">
-        <h5 style={{"fontSize":"50px","color":"#E31C25"}} >VIEW OUR SERVICES</h5>
+        <h5 style={{"fontSize":"50px","color":"#E31C25","fontFamily":"cursive"}} >VIEW OUR SERVICES</h5>
         </div>
         
         <div className="row">

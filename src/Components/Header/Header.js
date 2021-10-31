@@ -44,13 +44,13 @@ const Header = () => {
  
 
      { user?.email && 
-    <span id="hover" className="p-3">{user.displayName}</span>
+    <span id="hover" className="p-3">User:{user.displayName}</span>
   } 
     
    
  
- 
-   <Link className="text-decoration-none p-3" to="/register"><span id="hover">Signup</span></Link>
+{/*  
+   <Link className="text-decoration-none p-3" to="/register"><span id="hover">Signup</span></Link> */}
    
  </Nav>
 

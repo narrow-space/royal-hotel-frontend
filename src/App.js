@@ -15,6 +15,9 @@ import Privateroute from './Components/Login/Privateroute/Privateroute';
 import Header from './Components/Header/Header';
 import Manageorder from './Components/Manageorder/Manageorder';
 import Addservices from './Components/Addservices/Addservices';
+import Footer from './Components/Footer/Footer';
+import Notfound from './Components/Notfound/Notfound';
+import Body from './Components/Body/Body';
 
 
 function App() {
@@ -55,10 +58,18 @@ function App() {
     <Addservices></Addservices>
   </Privateroute>
 
+  <Route path="*">
 
+  <Notfound>
+
+  </Notfound>
+</Route>
   
 </Switch>
 </Router>
+
+
+<Footer></Footer>
    </AuthProvider>
 
 

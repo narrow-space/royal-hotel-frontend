@@ -325,7 +325,7 @@ const Body = () => {
 
         </div>
       </div>
-      <h2 className="text-center">News & Event</h2>
+      <h2 style={{ "fontFamily": "cursive" }}className="text-center my-5">News & <span style={{ "fontFamily": "cursive", "color": "red" }} >Event</span> </h2>
       <div className="ms-5">
 
 

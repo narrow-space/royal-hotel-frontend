@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 import { useForm,} from "react-hook-form";
 import useAuth from '../../Hooks/useAuth';
 import { Alert } from 'react-bootstrap';
+import Body from '../Body/Body';
 
 const Placeorder = () => {
     const { orderid } = useParams()
@@ -79,6 +80,7 @@ const Placeorder = () => {
 
 
     return (
+        <>
         <div className="row mt-5">
             <div className="col-md-2">
 
@@ -125,7 +127,13 @@ const Placeorder = () => {
 
                 </div>
             </div>
+
+           
         </div>
+
+        
+        </>
+        
     );
 };
 
