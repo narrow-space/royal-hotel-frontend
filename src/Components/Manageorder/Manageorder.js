@@ -27,7 +27,7 @@ const Manageorder = () => {
 
         if (procced) {
 
-            fetch(`https://warm-reaches-84753.herokuapp.com/${id}`, {
+      fetch(`https://warm-reaches-84753.herokuapp.com/managealldelete/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'content-type': 'application/json'
