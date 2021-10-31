@@ -55,7 +55,7 @@ return (
     </Col>
     <Col xs={12} md={3}>
         <div className="link mx-5">
-            <h5 className="text-center">Address</h5>
+            <h5 className="">Address</h5>
             <ul>
                 <li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A. Landmark : Next To Airport
 

@@ -107,6 +107,7 @@ return (
     <tr>
         <th scope="col">id</th>
         <th scope="col">Name</th>
+        <th scope="col">Adress</th>
         <th scope="col">Mobile No.</th>
         <th scope="col">Email</th>
         <th scope="col">Price</th>
@@ -121,6 +122,7 @@ return (
         manageorder.map(mo => <tr>
             <th scope="row">{mo.bookingid}</th>
             <td>{mo?.name}</td>
+            <td>{mo?.adress}</td>
             <td>{mo?.number}</td>
             <td>{mo?.email}</td>
             <td><i className="fas fa-dollar-sign mx-2"></i>{mo.price}</td>
