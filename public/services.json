@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Master Room",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "420",
+        "availableticket": "42",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/ckfJ0yQ/room4.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mini-Suite",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "540",
+        "availableticket": "520",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/MRML16g/room5.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ultra Deluxe",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "380",
+        "availableticket": "92",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/YXvXQmH/room3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Luxury Room",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "420",
+        "availableticket": "40",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/1fkLsNV/3-D-rendering-of-large-bedroom-Computer-generated-image-of-a-luxurious-and-elegant-bedroom-interiors.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Premium Room",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "540",
+        "availableticket": "520",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/w67f8TW/room1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Normal Room",
+        "city": "illunois united states",
+        "rating": "4.9",
+        "price": "380",
+        "availableticket": "92",
+        "description": " High-quality furnishings with opulent, expensive touches, attention to aesthetic detail, a quiet room with fresh air, original art on the walls, windows that open, robes and slippers, adequate storage, hangers, desk, reading chair, safe, good-size flat-screen TV, iPhone/iPod dock, coffee maker",
+        "img": "https://i.ibb.co/wCT39X5/room2.jpg"
+    }
+]

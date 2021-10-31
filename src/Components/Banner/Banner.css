@@ -1,0 +1,124 @@
+
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 30px;
+    background-repeat: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+/* .carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+} */
+
+.slider-btn {
+    margin-top: 30px;
+}
+
+.slider-btn .btn {
+    background-color: #F4364F;
+    columns: white;
+    padding: 7px 25px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.carousel-caption {
+    bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+
+
+.slider-btn .btn:hover {
+    background-color: #121111;
+    color: #FFFFFF;
+}
+
+.slider-btn .btn-2 {
+    background-color: #F4364F;
+    columns: white;
+    padding: 7px 25px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.slider-btn .btn-2:hover {
+    background-color: #720110;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:668px) {
+    .res-btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom:-30px;
+        margin-left:2px ;
+        
+        
+    }    
+ 
+    .carousel-caption h5{
+       
+     font-size:.8rem;
+     font-weight: 400;
+    
+     
+ 
+                     }
+ 
+ 
+      .carousel-item{
+          height:fit-content;
+           
+         }
+         .slider-btn .btn{
+             
+             
+             font-size:.9rem;
+             line-height:.9rem;
+             padding: .3rem 2rem;
+             
+            
+         }
+ 
+ 
+ 
+ 
+ }

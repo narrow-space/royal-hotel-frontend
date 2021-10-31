@@ -1,0 +1,18 @@
+.header-container span {
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    cursor:pointer;
+}
+/* #hover:hover{
+    background-color: #E31C25;
+    color: white;
+    padding:1rem;
+   
+    
+} */
+
+.toogle{
+    background-color: #E31C25;
+    font-style: white;
+}

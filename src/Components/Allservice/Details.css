@@ -1,0 +1,13 @@
+/* .card-container .box .img-box{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.card-container .box .img-box img{
+    max-width: 100%;
+    transition: transform 1s;
+}  
+.card-container .box:hover .img-box img{
+    transform: scale(1.5);
+} */
