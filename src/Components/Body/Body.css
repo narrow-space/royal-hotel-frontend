@@ -1,6 +1,6 @@
 @media only screen and (max-width:668px) {
     .ph-galery{
-        margin-left: 70px;
+        margin-left:5px;
     }    
 }
 .text{
@@ -20,4 +20,11 @@
 }  
 .card-container .box:hover .img-box img{
     transform: scale(1.5);
+}
+#img-container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 5px;
+    
+
 }
