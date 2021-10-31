@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Alert } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 
 const Addservices = () => {
+    const[alert,setAlert]=useState('')
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
@@ -14,7 +16,17 @@ const Addservices = () => {
 
         })
             .then(res => res.json())
-            .then(result => console.log(result))
+            .then(result => {
+                setAlert(result)
+                if(result.insertedId){
+                    setTimeout(function() {
+                        setAlert('')
+                        }, 1000);
+                }
+                reset()
+                console.log(result)
+            
+            })
 
 
     };
@@ -22,6 +34,7 @@ const Addservices = () => {
         <div>
             <h2 className="text-center mt-3">Please Add <span style={{ "color": "red" }}>a Service</span></h2>
             <div className="container w-50">
+               {alert?.insertedId&& <Alert  variant="success">Service added Successfully</Alert>}
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <label className="">Name</label>
                     <input className="form-control mt-3" {...register("name")} />
