@@ -4,7 +4,12 @@ import { useForm,} from "react-hook-form";
 import useAuth from '../../Hooks/useAuth';
 import { Alert } from 'react-bootstrap';
 import Body from '../Body/Body';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  duration: 2000, // values from 0 to 3000, with step 50ms
+  easing: 'ease'
+});
 const Placeorder = () => {
     const { orderid } = useParams()
     const [service, setService] = useState([])
@@ -81,7 +86,7 @@ const Placeorder = () => {
 
     return (
         <>
-        <div className="row mt-5">
+        <div data-aos="zoom-in" className="row mt-5">
             <div className="col-md-2">
 
             </div>

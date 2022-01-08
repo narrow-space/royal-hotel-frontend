@@ -2,11 +2,17 @@ import React from 'react';
 import { Card, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Details.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  duration: 2000, // values from 0 to 3000, with step 50ms
+  easing: 'ease'
+});
+// 
 const Details = (props) => {
     const{name,description,img,price,_id,index,rating}=props.service
     return (
-          <div className="col-md-4 g-4">
+          <div data-aos="zoom-in" className="col-md-4 g-4">
               
   <div className="col">
     <div className=" h-100 ">

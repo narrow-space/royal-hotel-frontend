@@ -18,11 +18,12 @@ import Addservices from './Components/Addservices/Addservices';
 import Footer from './Components/Footer/Footer';
 import Notfound from './Components/Notfound/Notfound';
 import Body from './Components/Body/Body';
-
+import './App.css'
 
 function App() {
   return (
-   <AuthProvider>
+  <div className='App'>
+     <AuthProvider>
       <Router>
         <Header></Header>
 
@@ -71,6 +72,7 @@ function App() {
 
 <Footer></Footer>
    </AuthProvider>
+  </div>
 
 
   );
